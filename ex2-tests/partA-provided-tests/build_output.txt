@@ -1,0 +1,3 @@
+Command: g++ -std=c++11 -o partA_exec -Wall --pedantic-errors -Werror -DNDEBUG --no-pie -I./ -IpartA partA/*.cpp part_a_test.cpp 
+
+Build output: 

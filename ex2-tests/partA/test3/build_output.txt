@@ -1,0 +1,9 @@
+Command: g++ -std=c++11 -o partA_exec3 -Wall --pedantic-errors -Werror -DNDEBUG --no-pie -I./ -IpartA partA/*.cpp Auxiliaries.cpp test_partA_finaltest3.cpp 
+
+Build output: 
+test_partA_finaltest3.cpp:7:17: error: ‘mtm’ is not a namespace-name
+ using namespace mtm;
+                 ^
+test_partA_finaltest3.cpp:7:20: error: expected namespace-name before ‘;’ token
+ using namespace mtm;
+                    ^

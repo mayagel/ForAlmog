@@ -1,0 +1,31 @@
+Command: g++ -std=c++11 -o partA_exec4 -Wall --pedantic-errors -Werror -DNDEBUG --no-pie -I./ -IpartA partA/*.cpp Auxiliaries.cpp test_partA_finaltest4.cpp 
+
+Build output: 
+test_partA_finaltest4.cpp: In function ‘int main()’:
+test_partA_finaltest4.cpp:38:23: error: no matching function for call to ‘mtm::SortedList<ExamDetails>::length() const’
+     cout<<lst2.length()<<endl;
+                       ^
+test_partA_finaltest4.cpp:38:23: note: candidate is:
+In file included from test_partA_finaltest4.cpp:2:0:
+partA/sortedList.h:231:9: note: int mtm::SortedList<T>::length() [with T = ExamDetails] <near match>
+     int SortedList<T>::length()
+         ^
+partA/sortedList.h:231:9: note:   no known conversion for implicit ‘this’ parameter from ‘const mtm::SortedList<ExamDetails>*’ to ‘mtm::SortedList<ExamDetails>*’
+test_partA_finaltest4.cpp:39:28: error: no matching function for call to ‘mtm::SortedList<ExamDetails>::filter(bool (&)(const ExamDetails&)) const’
+     lst2.filter(isTrollLink);
+                            ^
+test_partA_finaltest4.cpp:39:28: note: candidate is:
+In file included from test_partA_finaltest4.cpp:2:0:
+partA/sortedList.h:253:19: note: mtm::SortedList<T> mtm::SortedList<T>::filter(condition) [with condition = bool (*)(const ExamDetails&); T = ExamDetails] <near match>
+     SortedList<T> SortedList<T>::filter(condition cond)
+                   ^
+partA/sortedList.h:253:19: note:   no known conversion for implicit ‘this’ parameter from ‘const mtm::SortedList<ExamDetails>*’ to ‘mtm::SortedList<ExamDetails>*’
+test_partA_finaltest4.cpp:41:29: error: no matching function for call to ‘mtm::SortedList<ExamDetails>::apply(ExamDetails (&)(ExamDetails)) const’
+     lst3 = lst2.apply(getLen);
+                             ^
+test_partA_finaltest4.cpp:41:29: note: candidate is:
+In file included from test_partA_finaltest4.cpp:2:0:
+partA/sortedList.h:268:19: note: mtm::SortedList<T> mtm::SortedList<T>::apply(operation) [with operation = ExamDetails (*)(ExamDetails); T = ExamDetails] <near match>
+     SortedList<T> SortedList<T>::apply(operation func)
+                   ^
+partA/sortedList.h:268:19: note:   no known conversion for implicit ‘this’ parameter from ‘const mtm::SortedList<ExamDetails>*’ to ‘mtm::SortedList<ExamDetails>*’
