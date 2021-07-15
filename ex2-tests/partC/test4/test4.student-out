@@ -1,0 +1,41 @@
+*****************
+| | | | | | | | |
+| |M| | | | | | |
+| | | | | | | | |
+| | | |S| | | | |
+| | | |n| | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+*****************
+A game related error has occurred: IllegalCell
+A game related error has occurred: IllegalCell
+A game related error has occurred: CellEmpty
+A game related error has occurred: MoveTooFar
+A game related error has occurred: MoveTooFar
+A game related error has occurred: MoveTooFar
+A game related error has occurred: CellOccupied
+A game related error has occurred: CellOccupied
+A game related error has occurred: CellOccupied
+A game related error has occurred: MoveTooFar
+*****************
+| | | | | | | | |
+| |M| | | | | | |
+| | | | | | | | |
+| | | |S| | | | |
+| | | |n| | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+*****************
+*****************
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | |n|
+| | | | | | | | |
+| | | | | |S| | |
+| | | |M| | | | |
+| | | | | | | | |
+| | | | | | | | |
+*****************
+A game related error has occurred: IllegalCell

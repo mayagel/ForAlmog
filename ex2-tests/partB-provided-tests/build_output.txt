@@ -1,0 +1,3 @@
+Command: g++ -std=c++11 -o partB_exec -Wall --pedantic-errors -Werror -DNDEBUG --no-pie -I./ -IpartB partB/*.cpp gameTest.cpp Auxiliaries.cpp 
+
+Build output: 

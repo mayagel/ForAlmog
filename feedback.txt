@@ -1,0 +1,81 @@
+submission code: 234124-202002-315155671-9259346
+submission ids: 313151185, 315155671
+date submitted: 21/06/2021 12:45:49
+late days: 0
+approved late days: 0
+tests grade: 70.6
+final grade: 70.6
+
+ex2-tests/partA-provided-tests:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partA/test1:
+    build: fail
+ex2-tests/partA/test2:
+    build: fail
+ex2-tests/partA/test3:
+    build: fail
+ex2-tests/partA/test4:
+    build: fail
+ex2-tests/partA/test6:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partA/test7:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partA/test8:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partB-provided-tests:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partC/test1:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partC/test2:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partC/test3:
+    build: success
+    out: diff
+    err: identical
+    memory: segmentation fault
+ex2-tests/partC/test4:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partC/test5:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partC/test6:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partC/test7:
+    build: success
+    out: identical
+    err: identical
+    memory: success
+ex2-tests/partC/test8:
+    build: success
+    out: identical
+    err: identical
+    memory: success
